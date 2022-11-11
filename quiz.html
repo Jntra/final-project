@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Wuiz</title>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+   
+    <!-- quiz-container -->
+    <div id="quiz-container">
+        <!-- question container -->
+        <div class="questions">
+            <img class="arrow-back" src="img/icon-back.png"> 
+        <div class="text">
+                <h3>m-Dukasi</h3>
+            <h2 id="question"></h2>
+            <ol type="a">
+                <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option3" onclick="calcScore(this)"></span></li>
+            </ol>
+            <h4 id="stat"></h4>
+            <a href="score-page.html">
+            <button type="button" class="next">Lanjut</button>
+        </div>
+
+
+    <!-- javascript file source -->
+    <script src="quiz.js"></script>
+</body>
+</html>
