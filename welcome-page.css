@@ -1,0 +1,19 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.container {
+    width: 375px;
+    height: 667px;
+    border: 15px solid #465365;
+    border-radius: 50px;
+}
+img.gambar {
+    margin-top: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
