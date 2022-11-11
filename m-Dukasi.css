@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.container {
+    width: 375px;
+    height: 667px;
+    border: 15px solid #465365;
+    border-radius: 50px;
+}
+.container .arrow-back {
+    margin-top: 8%;
+    cursor: pointer;
+} 
+.container .name {
+    margin-top: 4%;
+}
+img.gambar-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    cursor: pointer;
+}
+img.gambar-2 {
+    margin-bottom: 1%;
+    cursor: pointer;
+}
+img.gambar-3 {
+    cursor: pointer;
+}
